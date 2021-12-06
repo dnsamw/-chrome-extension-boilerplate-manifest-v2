@@ -1,0 +1,17 @@
+{
+    "manifest_version":2,
+    "name":"ChromeExtensionTemplate",
+    "version":"0.1",
+    "icon": {"128": "icon_128.png"},
+    "browser_action": {
+        "default_icon":"icon.png",
+        "default_popup": "popup.html"
+    },
+    "content_scripts":
+    [
+        {
+            "matches":["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ]
+}

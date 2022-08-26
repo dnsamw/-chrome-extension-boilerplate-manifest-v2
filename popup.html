@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Extension Name</title>
+	<style type="text/css">
+		html, body{
+			font-family: 'Open Sans', sans-serif;
+			font-size: 14px;
+			margin: 0;
+			min-height: 180px;
+			padding:0;
+			width: 384px;
+		}
+		h1{
+			font-family: 'Menlo', monospace;
+			font-size: 22px;
+			font-weight: 400;
+			margin: 0;
+			color: #ffffff;
+		}
+		a:link, a:visited{
+			color: #000;
+			outline: 0;
+			text-decoration: none;
+		}
+		img{
+			width: 30px;
+		}
+		.modal-header{
+			align-items: center;
+			border-bottom: 0.5px solid #dadada;
+			background-color: #0a151d;
+		}
+		.modal-content{
+			padding: 0 22px;
+		}
+		.modal-icons{
+			border-top: 0.5px solid #dadada;
+			height: 50px;
+			width: 100%;
+		}
+		.logo{
+			padding: 16px;
+
+		}
+		.logo-icon{
+			vertical-align: text-bottom;
+			margin-right: 12px;
+		}
+		.version{
+			color: #444;
+			font-size: 18px;
+		}
+		.flex-container{
+			display: flex;
+			justify-content: space-between;
+			padding: 10px 22px;
+		}
+		.flex{
+			opacity: 1;
+			transition: opacity 0.2s ease-in-out;
+			width: 120px;
+		}
+		.flex:hover{
+			opacity: 0.4;
+		}
+		.flex .fa{
+			font-size: 40px;
+			color: #000000;
+		}
+	</style>
+
+</head>
+<body>
+	<div class="modal-header">
+		<h1 class="logo">
+			<img src="images/extension-logo.jpg" alt="Extension Name" class="logo-icon"> Extension Name <span class="version">(0.10)</span>
+		</h1>
+	</div>
+	<div class="modal-content">
+		<p>Developed by <a href="https://github.com/dnsamw">Dan Samarawicky [c] 2021</a></p>
+	</div>
+	<div style="margin: 0 10px 0 10px;" class="modal-icons">
+			<p><b>Instructions:</b>
+				<ol>
+<li>
+	<p>visit <a href="#">this example page</a></p> 
+<li>
+
+	<p>click on extension or it will automatically kicked in, depending on ur chrome extension setings. </a></p> 
+</li>
+<li>
+
+	<p>look for a download button top left corner of the page, click on it twice. </a></p> 
+</li>
+<li>
+
+	<p>finally download the data.json file by clicking___ button.</a></p> 
+</li>
+</li>
+				</ol>
+		</div>
+	</div>
+	<script type="text/javascript" src="popup.js"></script>
+</body>
+</html>
